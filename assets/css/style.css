@@ -1,0 +1,139 @@
+body {
+	margin: 0;
+	border: 0;
+	padding: 0;
+	background-image: url("http://hires.photospublic.com/PP21030314-light-concrete-wall-grunge-background.jpg");
+	opacity:;
+}
+
+.header {
+	border: 0;
+	border-bottom: 1px;
+	border-color: black;
+	border-style: inset;
+	background: white;
+	padding-bottom: 80px;
+}
+
+.myname {
+	padding-top: 12px;
+	padding-left: 20px;
+	padding-right: 20px;
+	float: left;
+	margin-left: 100px;
+	background: #15ead8;
+	color: #ffffff;
+}
+
+ul {
+	float: right;
+	margin-right: 10px;
+	margin-top: 30px;
+	list-style-type: none;
+	font-size: 20px;
+}
+
+li {
+	padding-right: 10px;
+	padding-left: 10px;
+	float: right;
+
+}
+
+li a:hover {
+	background-color: ;
+}
+
+li a {
+	padding: 5px;
+	color: grey;
+	text-align: center;
+	text-decoration: none;
+
+}
+
+hr {
+	height: 1px;
+	border: 0;
+	padding: 0;
+	margin: 1em 0;
+	border-top: 2px solid #ccc;
+}
+
+.Me {
+	padding-right: 17px;
+	float: left;
+	width: 150px;
+	height: 150px;
+}
+
+.Git {
+	margin: 0;
+	padding: 0;
+	float: left;
+	height: 50px;
+	width: 31%
+}
+
+.Stack {
+	margin: 0;
+	padding: 0;
+	float: left;
+	height: 50px;
+	width: 33%;
+}
+
+.Linked {
+	margin: 0;
+	padding: 0;
+	float: left;
+	height: 50px;
+	width: 33%;
+}
+
+.aboutwords {
+	margin: 1px;
+	color: #15ead8;
+}
+
+.aboutbox {
+	margin-top: 40px;
+	margin-left: 100px;
+	padding: 30px;
+	float: left;
+	background-color: white;
+	width: 50%;
+	height: 400px;
+}
+.connectbox {
+	width: 150px;
+	margin-top: 40px;
+	padding: 30px;
+	float: right;
+	background-color: white;
+	margin-right: 55px;
+}
+
+.connectwords {
+	color: #15ead8;
+	margin-top: 5px;
+}
+
+footer {
+	clear: both;
+	position: fixed;
+	bottom: 0;
+	background: darkgrey;
+	width: 100%;
+	border-top-color: #15ead8;
+	border-top-width: 4px;
+	border-top-style: solid; 
+}
+
+.foot {
+	text-align: center;
+}
+
+.body {
+	height: 557px
+}
