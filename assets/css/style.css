@@ -7,16 +7,23 @@ body {
 }
 
 .header {
+	z-index: 1;
+	width: 100%;
 	border: 0;
-	border-bottom: 1px;
-	border-color: black;
+	position: fixed;
+	border-bottom-width: 2px;
+	border-color: darkgrey;
 	border-style: inset;
 	background: white;
-	padding-bottom: 80px;
+	padding-bottom: 0px;
+}
+
+h1 {
+	font-family: "Georgia", Times, Times New Roman, serif;
 }
 
 .myname {
-	padding-top: 12px;
+	padding-top: 6px;
 	padding-left: 20px;
 	padding-right: 20px;
 	float: left;
@@ -63,13 +70,13 @@ hr {
 .Me {
 	padding-right: 17px;
 	float: left;
-	width: 150px;
-	height: 150px;
+	width: 225px;
+	height: 225px;
 }
 
 .Git {
 	margin: 0;
-	padding: 0;
+	padding: 1px;
 	float: left;
 	height: 50px;
 	width: 31%
@@ -85,7 +92,7 @@ hr {
 
 .Linked {
 	margin: 0;
-	padding: 0;
+	padding: 1px;
 	float: left;
 	height: 50px;
 	width: 33%;
@@ -97,17 +104,19 @@ hr {
 }
 
 .aboutbox {
-	margin-top: 40px;
+	clear: both;
+	overflow: auto;
+	margin-top: 110px;
 	margin-left: 100px;
 	padding: 30px;
 	float: left;
 	background-color: white;
-	width: 50%;
+	width: 40%;
 	height: 400px;
 }
 .connectbox {
 	width: 150px;
-	margin-top: 40px;
+	margin-top: 110px;
 	padding: 30px;
 	float: right;
 	background-color: white;
@@ -136,4 +145,172 @@ footer {
 
 .body {
 	height: 557px
+}
+
+.formbox {
+	margin-top: 110px;
+	margin-left: 100px;
+	padding: 30px;
+	float: left;
+	background-color: white;
+	width: 50%;
+	height: 400px;
+}
+
+textarea {
+	width: 100%;
+}
+
+input[type=text] {
+	width: 100%;
+	height: 20px;
+
+	-webkit-appearance: none;
+}
+
+input[type=submit] {
+	background: #15ead8;
+	border: 0;
+	height: 40px;
+	width: 90px;
+}
+
+.works {
+	clear: both;
+	margin-bottom: 90px;
+	margin-top: 110px;
+	margin-left: 100px;
+	padding: 30px;
+	float: left;
+	background-color: white;
+	width: 50%;
+	height: 100%;
+}
+
+.beebox {
+	position: relative;
+	float: left;
+	width: 300px;
+	height: 300px;
+	margin-bottom: 50px;	
+}
+
+.bee {
+	width: 100%;
+	height: 100%;
+}
+
+.g1name {
+	position: absolute;
+	width: 100%;
+	top: 225px;
+	left: 0;
+	background: #15ead8;
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+.rpgbox {
+	position: relative;
+	float: right;
+	width: 300px;
+	height: 300px;	
+	margin-bottom: 50px;
+
+}
+
+.rpg {
+	width: 100%;
+	height: 100%;
+
+}
+
+.g2name {
+	position: absolute;
+	width: 100%;
+	top: 225px;
+	left: 0;
+	background: #15ead8;
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+.triviabox {
+	clear: both;
+	float: left;
+	position: relative;
+	width: 300px;
+	height: 300px;	
+	margin-bottom: 50px;
+}
+
+.trivia {
+	width: 100%;
+	height: 100%;
+}
+
+.g3name {
+	position: absolute;
+	width: 100%;
+	top: 225px;
+	left: 0;
+	background: #15ead8;
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;	
+}
+
+.infobox {
+	float: right;
+	position: relative;
+	width: 300px;
+	height: 300px;	
+	margin-bottom: 50px;
+}
+
+.info {
+	width: 100%;
+	height: 100%;
+}
+
+.g4name{
+	position: absolute;
+	width: 100%;
+	top: 225px;
+	left: 0;
+	background: #15ead8;
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;	
+}
+
+.rpsbox {
+	clear: both;
+	position: relative;
+	float: left;
+	width: 300px;
+	height: 300px;	
+}
+
+.rps {
+	width: 100%;
+	height: 100%;
+}
+
+.g5name {
+	position: absolute;
+	width: 100%;
+	top: 225px;
+	left: 0;
+	background: #15ead8;
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
 }
